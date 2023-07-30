@@ -1,0 +1,151 @@
+.content {
+  justify-content: center;
+  column-gap: 10px;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.divcard {
+  flex: 2;
+  padding-left: 0px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  border-width: 0;
+  border-style: solid;
+  border-radius: 8px;
+  min-width: 300px;
+  min-height: 170px;
+  max-width: 800px;
+  max-height: 240px;
+  background-color: #1c4c5a;
+  flex-shrink: 1; 
+
+}
+.div__card__location__main {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  white-space: nowrap;
+}
+
+.divcard__location {
+  border-radius: 8px;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  color: white;
+  height: 40px;
+  margin-left: 10px;
+}
+.div__card__location__when {
+  margin-left: 5px;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.divcard__pronostic {
+  border-radius: 8px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  flex-direction: column;
+  background-color: #2591b5;
+  flex: 1; /* Para que ocupe todo el espacio disponible en el contenedor padre */
+  
+  
+}
+.divcard__pronostic__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divcard__pronostic__c {
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+}
+.divcard__pronostic__icon {
+  filter: invert(1);
+}
+.icon_weather {
+  width: 100px;
+}
+.div__card__location__main__sun {
+  color: white;
+  font-size: 26px;
+}
+
+.div__card__location__main__next {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+.left_indice_aire {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 280px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 15px;
+}
+.split_airquality {
+  display: flex;
+}
+
+.left_indice_aire__title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.left_indice_aire__number {
+  font-size: 36px;
+  color: #2B2B2B;
+  margin-right: 15px;
+  background: url(images/icons/circle-icon.svg) no-repeat left center; /* Cambia "ruta-del-icono.png" por la ruta de tu icono */
+  padding-left: 20px; /* Ajusta este valor para dar espacio al icono dentro del texto */
+
+}
+.left_indice_aire__resumen
+{
+  font-size: 18px;
+  color: #2B2B2B;
+  padding-bottom: 15px;
+}
+.left_indice_aire__resumen p
+{
+  padding-top: 10px;
+  font-size: 14px;
+  color: #6F7585;
+}
+.details
+{
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1.15;
+  font-size: .8125rem;
+  font-weight: 700;
+  outline: none;
+  white-space: nowrap;
+  background-color: #1b4de4;
+  transition: opacity .27s;
+  cursor: pointer;
+}
+.details:hover
+{
+  opacity: .9;
+}

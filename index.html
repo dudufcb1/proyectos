@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather.Com</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/content.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="header__left">
+          <div class="header__left__logo">
+            <a href="https://weather.com/es-MX"
+              ><img src="images/logo.svg"
+            /></a>
+          </div>
+          <div class="header__left__logotext">
+            <img class="logo__text" src="images/logo-text.png" />
+          </div>
+        </div>
+        <div class="header__center">
+          <input
+            class="header__center__searchbox"
+            type="search"
+            placeholder="Buscar ciudad o código postal"
+          />
+          <img src="images/icons/search-icon.svg" class="icon" />
+        </div>
+        <div class="header__right">
+          <img class="globe" src="images/icons/world-icon.svg" />
+          MX | ºC
+          <img class="tab" src="images/icons/down-icon.svg" />
+        </div>
+      </header>
+      <nav class="header__location">
+        <img
+          src="images/icons/party-cloud-icon.svg"
+          class="header__location_weather__icon"
+        />
+        14º Cuauhtémoc
+      </nav>
+      <nav class="header__archive__links">
+        <ul>
+          <a href="#"><li>Hoy</li></a>
+          <a href="#"><li>Por hora</li></a>
+          <a href="#"><li>10 días</li></a>
+          <a href="#"><li>Fin de semana</li></a>
+          <a href="#"><li>Mensual</li></a>
+          <a href="#"><li>Radar</li></a>
+          <a href="#"><li>Más pronosticos</li></a>
+        </ul>
+        <div class="arrow">
+          <img src="images/icons/down-icon.svg" class="tab" />
+        </div>
+      </nav>
+      <content class="content">
+        <section class="divcard">
+          <div class="div__card__location__main">
+            <div class="divcard__location">Cuauhtémoc</div>
+            <div class="div__card__location__when">
+              A partir de las 13:35 CST
+            </div>
+          </div>
+          <div class="divcard__pronostic">
+            <div class="divcard__pronostic__container">
+              <div class="divcard__pronostic__c">25º</div>
+              <div class="divcard__pronostic__icon">
+                <img
+                  src="/images/icons/party-cloud-icon.svg"
+                  class="icon_weather"
+                />
+              </div>
+            </div>
+
+            <div class="div__card__location__main__sun">Soleado</div>
+            <div class="div__card__location__main__next">
+              Día 26º &middot; Noche 14º
+            </div>
+          </div>
+          otro
+        </section>
+        <section class="left_indice_aire">
+          <div class="left_indice_aire__title">Índice calidad del aire</div>
+          <div class="split_airquality">
+            <div class="left_indice_aire__number">87</div>
+            <div class="left_indice_aire__resumen">
+              Regular
+              <p>
+                La calidad del aire es aceptable, aunque puede existir un riesgo
+                de salud moderado con algunos contaminantes para una cantidad
+                muy reducida de personas inusualmente sensibles a la
+                contaminación del aire.
+              </p>
+            </div>
+          </div>
+          <div><button class="details">Ver Detalles</button></div>
+          
+        </section>
+      </content>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de Cabecera Flex en CSS</title>
+  <style>
+    .card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ff5722; /* Color de la cabecera */
+      color: #fff; /* Color del texto de la cabecera */
+      padding: 10px;
+    }
+
+    .title {
+      margin: 0;
+    }
+
+    .body {
+      padding: 10px;
+      background-color: #f2f2f2; /* Color del contenido */
+      color: #333; /* Color del texto del contenido */
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h2 class="title">Título</h2>
+    </div>
+    <div class="body">
+      <p>Contenido de la tarjeta...</p>
+    </div>
+  </div>
+</body>
+</html>
